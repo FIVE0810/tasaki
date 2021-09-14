@@ -1,0 +1,132 @@
+body {
+    background-color: #f2f2f2;
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  /* Titles */
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway";
+    font-size: 25px;
+    font-weight: 700;
+    color: #333;
+  }
+  
+  /* ABOUT ME */
+  
+  p {
+    line-height: 25px;
+    margin-bottom: 25px;
+  }
+  
+  .centered {
+    text-align: center;
+  }
+  
+  /* LinkedIn */
+  
+  a {
+    color: #1abc9c;
+    word-wrap: break-word;
+ }
+  
+  /* 表紙 */
+  
+  #headerwrap {
+    background: url(../img/header-bg.jpg) no-repeat center top;
+    margin-top: 60px;
+    padding-top: 140px;
+    text-align: center;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 500px;
+    width: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  #headerwrap h1 {
+    font-size: 80px;
+    color: black;
+  }
+  
+  #headerwrap h3 {
+    font-size: 20px;
+    color: grey;
+  }
+  
+  /* about Me 本文*/
+
+  #skillswrap h5, p {
+    color:#34495e;
+    font-weight: 700;
+  }
+  /* 一番下のとこ */
+
+  #footwrap {
+    background: #2f2f2f;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  
+  #footwrap p {
+    color: white;
+  }
+  
+  #footwrap h5 {
+    color: white;
+  }
+  
+  #footwrap t {
+    font-weight: 700;
+  }
+  
+
+  /* 統計とかの文字の大きさ */
+  
+  .desc {
+    padding-top: 10px;
+  }
+  
+  .desc p {
+    color:#34495e;
+    font-weight: 700;
+  }
+  
+  /*　IELTS */
+
+  .desc t {
+    color: #34495e;
+    font-weight: 700;
+  }
+  
+  /*　Future　本文 */
+  .desc more {
+    color: #50595a;
+  }
+  
+  /*　期間　*/
+  sm {
+    font-size: 10px;
+  }
+  
+  /* Contact Form */
+
+  .contact-form input, .contact-form textarea {
+    padding: 10px 20px;
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 16px ;
+    height: auto;
+  }
